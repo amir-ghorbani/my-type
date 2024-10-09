@@ -1,1 +1,35 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title-box">
+            <div class="title">AI-DESIGNER</div>
+        </div>
+        <div class="text-box" id="text-box">
+            <h1 contenteditable="true">Hello, VSCode!</h1>
+        </div>
+        <div class="title-box">
+            <div class="title">HUMAN-DESIGNER</div>
+            <div class="subtitle">COLOUR</div>
+            <div class="colour-options">
+                <label for="bg-colour">BACKGROUND COLOUR</label>
+                <input type="text" id="bg-colour" placeholder="#" />
+
+                <label for="font-colour">FONT COLOUR</label>
+                <input type="text" id="font-colour" placeholder="#" />
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
