@@ -14,9 +14,14 @@
     <div class="container">
         <div class="title-box">
             <div class="title">AI-DESIGNER</div>
+            <div class="subtitle">DESCRIBE</div>
+            <div class="describe-options">
+                <label for="description">DESCRIPTION</label>
+                <textarea id="description" placeholder="Enter description"></textarea>
+            </div>
         </div>
         <div class="text-box" id="text-box">
-            <h1 contenteditable="true">Hello, VSCode!</h1>
+            <h1 contenteditable="true" id="text-content">Hello, VSCode!</h1>
         </div>
         <div class="title-box">
             <div class="title">HUMAN-DESIGNER</div>
@@ -28,6 +33,14 @@
                 <label for="font-colour">FONT COLOUR</label>
                 <input type="text" id="font-colour" placeholder="#" />
             </div>
+            <div class="subtitle">FONT</div>
+            <div class="font-options">
+                <button id="inter-font-btn">Inter</button>
+                <button id="baskerville-font-btn">Libre Baskerville</button>
+            </div>
+            
+            
+            
         </div>
     </div>
     <script src="script.js"></script>
